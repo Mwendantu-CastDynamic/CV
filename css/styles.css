@@ -29,4 +29,12 @@ header, footer {
 header, footer, article, nav, aside{
   padding: lem;
 }
+@media screen and (min-width: 480px){
+#main {
+  flex-direction: row;
+}
 
+#main > nav,
+#main > aside {
+  flex: 0 0 20vw;
+}
